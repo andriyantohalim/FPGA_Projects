@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_Projects/arithmetic_operations/arithmetic_operations_1.srcs/sources_1/new/arithmetics_op.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_op
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_Projects/arithmetic_operations/arithmetic_operations_1.srcs/sources_1/new/arithmetics_op_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_op_tb
