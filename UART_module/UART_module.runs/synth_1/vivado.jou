@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Fri Oct 12 16:21:40 2018
+# Process ID: 7128
+# Current directory: D:/FPGA_Projects/UART_module/UART_module.runs/synth_1
+# Command line: vivado.exe -log UART_Tx_ctrl.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source UART_Tx_ctrl.tcl
+# Log file: D:/FPGA_Projects/UART_module/UART_module.runs/synth_1/UART_Tx_ctrl.vds
+# Journal file: D:/FPGA_Projects/UART_module/UART_module.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source UART_Tx_ctrl.tcl -notrace
