@@ -1,7 +1,7 @@
 0.6
 2018.2
-Jul 26 2018
-19:36:16
-D:/FPGA_Projects/arithmetic_operations/arithmetic_operations_1.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
-D:/FPGA_Projects/arithmetic_operations/arithmetic_operations_1.srcs/sources_1/new/arithmetics_op.v,1539334515,verilog,,D:/FPGA_Projects/arithmetic_operations/arithmetic_operations_1.srcs/sources_1/new/arithmetics_op_tb.v,,arithmetic_op,,,,,,,,
+Oct  1 2018
+20:13:33
+D:/FPGA_Projects/arithmetic_operations/arithmetic_operations_1.sim/sim_1/behav/xsim/glbl.v,1539355402,verilog,,,,glbl,,,,,,,,
+D:/FPGA_Projects/arithmetic_operations/arithmetic_operations_1.srcs/sources_1/new/arithmetics_op.v,1539355402,verilog,,D:/FPGA_Projects/arithmetic_operations/arithmetic_operations_1.srcs/sources_1/new/arithmetics_op_tb.v,,arithmetic_op,,,,,,,,
 D:/FPGA_Projects/arithmetic_operations/arithmetic_operations_1.srcs/sources_1/new/arithmetics_op_tb.v,1539335619,verilog,,,,arithmetic_op_tb,,,,,,,,
