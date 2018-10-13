@@ -20,7 +20,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module I2C_leader(
+module I2C_leader(clk, reset_n, ena, addr, rw, data_wr, busy, data_rd, ack_error, eop, sda, scl);
 
-    );
+input clk;
+input reset_n;
+input ena;
+input [6:0] addr;
+input rw;
+input [7:0] data_wr;
+
 endmodule
