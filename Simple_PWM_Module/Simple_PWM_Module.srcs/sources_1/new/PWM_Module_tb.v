@@ -41,7 +41,7 @@ initial begin
         forever #10 clk = ~clk; // generate a clock
       end
      
-      initial begin
+initial begin
         cmp = 8'd0; // initial value
         @(negedge rst); // wait for reset
         cmp = 8'd128;
