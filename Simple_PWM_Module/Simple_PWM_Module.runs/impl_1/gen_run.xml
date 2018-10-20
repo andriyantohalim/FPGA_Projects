@@ -5,10 +5,10 @@
   <File Type="REPORTS-TCL" Name="PWM_Module_tb_reports.tcl"/>
   <File Type="OPT-DCP" Name="PWM_Module_tb_opt.dcp"/>
   <File Type="OPT-DRC" Name="PWM_Module_tb_drc_opted.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="PWM_Module_tb_incremental_reuse_pre_placed.rpt"/>
   <File Type="OPT-HWDEF" Name="PWM_Module_tb.hwdef"/>
   <File Type="PWROPT-DCP" Name="PWM_Module_tb_pwropt.dcp"/>
   <File Type="PLACE-DCP" Name="PWM_Module_tb_placed.dcp"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="PWM_Module_tb_incremental_reuse_pre_placed.rpt"/>
   <File Type="BG-BGN" Name="PWM_Module_tb.bgn"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="PWM_Module_tb_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="PWM_Module_tb.bin"/>
