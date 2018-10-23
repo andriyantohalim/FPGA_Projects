@@ -1,0 +1,47 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+                   0 << Starting the Simulation >>
+                   0 clk_50=0, rst_l=0, enable_l=1, load_l=1, count_in=0, cnt_out=x, oe_l=0, count_tri=x
+                   1 clk_50=0, rst_l=0, enable_l=1, load_l=1, count_in=0, cnt_out=0, oe_l=0, count_tri=0
+                  10 clk_50=1, rst_l=0, enable_l=1, load_l=1, count_in=0, cnt_out=0, oe_l=0, count_tri=0
+                  20 << Coming out of reset >>
+                  20 clk_50=0, rst_l=1, enable_l=1, load_l=1, count_in=0, cnt_out=0, oe_l=0, count_tri=0
+                  30 clk_50=1, rst_l=1, enable_l=1, load_l=1, count_in=0, cnt_out=0, oe_l=0, count_tri=0
+                  40 << Loading the counter with a >>
+                  40 clk_50=0, rst_l=1, enable_l=1, load_l=0, count_in=a, cnt_out=0, oe_l=0, count_tri=0
+                  50 clk_50=1, rst_l=1, enable_l=1, load_l=0, count_in=a, cnt_out=0, oe_l=0, count_tri=0
+                  51 clk_50=1, rst_l=1, enable_l=1, load_l=0, count_in=a, cnt_out=a, oe_l=0, count_tri=a
+                  60 clk_50=0, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=a, oe_l=0, count_tri=a
+                  70 clk_50=1, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=a, oe_l=0, count_tri=a
+                  80 << Turning ON the count enable >>
+                  80 clk_50=0, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=a, oe_l=0, count_tri=a
+                  90 clk_50=1, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=a, oe_l=0, count_tri=a
+                  91 clk_50=1, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=b, oe_l=0, count_tri=b
+                 100 clk_50=0, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=b, oe_l=0, count_tri=b
+                 110 clk_50=1, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=b, oe_l=0, count_tri=b
+                 111 clk_50=1, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=c, oe_l=0, count_tri=c
+                 120 clk_50=0, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=c, oe_l=0, count_tri=c
+                 130 clk_50=1, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=c, oe_l=0, count_tri=c
+                 131 clk_50=1, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=d, oe_l=0, count_tri=d
+                 140 clk_50=0, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=d, oe_l=0, count_tri=d
+                 150 clk_50=1, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=d, oe_l=0, count_tri=d
+                 151 clk_50=1, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=e, oe_l=0, count_tri=e
+                 160 clk_50=0, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=e, oe_l=0, count_tri=e
+                 170 clk_50=1, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=e, oe_l=0, count_tri=e
+                 171 clk_50=1, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=f, oe_l=0, count_tri=f
+                 180 clk_50=0, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=f, oe_l=0, count_tri=f
+                 190 clk_50=1, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=f, oe_l=0, count_tri=f
+                 191 clk_50=1, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=0, oe_l=0, count_tri=0
+                 200 clk_50=0, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=0, oe_l=0, count_tri=0
+                 210 clk_50=1, rst_l=1, enable_l=0, load_l=1, count_in=a, cnt_out=0, oe_l=0, count_tri=0
+                 211 << count =  1 - Turning OFF the count enable >>
+                 211 clk_50=1, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=1, oe_l=0, count_tri=1
+                 220 clk_50=0, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=1, oe_l=0, count_tri=1
+                 230 clk_50=1, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=1, oe_l=0, count_tri=1
+                 240 clk_50=0, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=1, oe_l=0, count_tri=1
+                 250 clk_50=1, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=1, oe_l=0, count_tri=1
+                 251 << Turning OFF the OE >>
+                 251 clk_50=1, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=1, oe_l=1, count_tri=z
+                 260 clk_50=0, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=1, oe_l=1, count_tri=z
+                 270 clk_50=1, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=1, oe_l=1, count_tri=z
+                 271 << Simulation Complete >>
