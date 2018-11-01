@@ -1,0 +1,4 @@
+Running: xsim.dir/rising_edge_detector_module_behav/xsimk.exe -simmode gui -wdb rising_edge_detector_module_behav.wdb -simrunnum 0 -socket 53610
+Design successfully loaded
+Design Loading Memory Usage: 4808 KB (Peak: 4808 KB)
+Design Loading CPU Usage: 0 ms
