@@ -1,0 +1,15 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 46e6123a1dfd453bb787cb8302d5b2f7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot edge_detector_tb_behav xil_defaultlib.edge_detector_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.bi_edge_detector_module
+Compiling module xil_defaultlib.falling_edge_detector_module
+Compiling module xil_defaultlib.rising_edge_detector_module
+Compiling module xil_defaultlib.edge_detector_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot edge_detector_tb_behav
