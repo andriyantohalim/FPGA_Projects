@@ -21,15 +21,18 @@
 
 
 module rising_edge_detector_module(
-    input x,
-    output y
+    input signal,
+    input clk,
+    output rising_edge
     );
-    
-wire not1, not2, not3;
-    
-assign not1 = ~x;
-assign not2 = ~not1;
-assign not3 = ~not2;
-assign y = x & not3;
+
+reg signal_delay;
+
+always @ (posedge clk)
+begin
+    signal_delay <= signal;
+end    
+
+assign rising_edge = signal & ~signal_delay;
 
 endmodule

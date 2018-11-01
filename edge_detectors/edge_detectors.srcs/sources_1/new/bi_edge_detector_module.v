@@ -21,14 +21,18 @@
 
 
 module bi_edge_detector_module(
-    input x,
-    output y
-    );
+    input signal,
+    input clk,
+    output bi_edge
+);
 
-wire not1, not2, not3;
-    
-assign not1 = ~x;
-assign not2 = ~not1;
-assign y = (x ^ not2);
+reg signal_delay;
+
+always @ (posedge clk)
+begin
+    signal_delay <= signal;
+end    
+
+assign bi_edge = signal ^ signal_delay;
 
 endmodule
