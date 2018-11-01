@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../PWM_Generator.srcs/sources_1/new/PWM_core_module.v" \
+"../../../../PWM_Generator.srcs/sources_1/new/deadtime_module.v" \
+"../../../../PWM_Generator.srcs/sources_1/new/deadtime_timer_module.v" \
+"../../../../PWM_Generator.srcs/sources_1/new/PWM_Generator_Module.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
