@@ -2,3 +2,6 @@ Running: xsim.dir/edge_detector_tb_behav/xsimk.exe -simmode gui -wdb edge_detect
 Design successfully loaded
 Design Loading Memory Usage: 4828 KB (Peak: 4828 KB)
 Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 5424 KB (Peak: 5424 KB)
+Simulation CPU Usage: 15 ms

@@ -1,7 +1,7 @@
 0.6
 2018.2
-Oct  1 2018
-20:13:33
-D:/FPGA_Projects/count16_module/count16_module.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
-D:/FPGA_Projects/count16_module/count16_module.srcs/sources_1/new/count16_module.v,1540221185,verilog,,D:/FPGA_Projects/count16_module/count16_module.srcs/sources_1/new/count16_module_tb.v,,count16,,,,,,,,
+Jul 26 2018
+19:36:16
+D:/FPGA_Projects/count16_module/count16_module.sim/sim_1/behav/xsim/glbl.v,1541055333,verilog,,,,glbl,,,,,,,,
+D:/FPGA_Projects/count16_module/count16_module.srcs/sources_1/new/count16_module.v,1541055333,verilog,,D:/FPGA_Projects/count16_module/count16_module.srcs/sources_1/new/count16_module_tb.v,,count16,,,,,,,,
 D:/FPGA_Projects/count16_module/count16_module.srcs/sources_1/new/count16_module_tb.v,1540221266,verilog,,,,cnt16_tb,,,,,,,,

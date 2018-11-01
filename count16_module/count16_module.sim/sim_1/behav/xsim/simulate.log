@@ -41,7 +41,4 @@ Time resolution is 1 ps
                  240 clk_50=0, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=1, oe_l=0, count_tri=1
                  250 clk_50=1, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=1, oe_l=0, count_tri=1
                  251 << Turning OFF the OE >>
-                 251 clk_50=1, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=1, oe_l=1, count_tri=z
-                 260 clk_50=0, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=1, oe_l=1, count_tri=z
-                 270 clk_50=1, rst_l=1, enable_l=1, load_l=1, count_in=a, cnt_out=1, oe_l=1, count_tri=z
-                 271 << Simulation Complete >>
+                 251 clk_50=1, rst_l=1, enable_l=1,

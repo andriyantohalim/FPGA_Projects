@@ -1,9 +1,9 @@
 #-----------------------------------------------------------
-# Webtalk v2018.2.2 (64-bit)
-# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
-# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
-# Start of session at: Mon Oct 22 23:17:56 2018
-# Process ID: 12392
+# Webtalk v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Thu Nov  1 15:28:53 2018
+# Process ID: 21208
 # Current directory: D:/FPGA_Projects/count16_module/count16_module.sim/sim_1/behav/xsim
 # Command line: wbtcv.exe -mode batch -source D:/FPGA_Projects/count16_module/count16_module.sim/sim_1/behav/xsim/xsim.dir/cnt16_tb_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: D:/FPGA_Projects/count16_module/count16_module.sim/sim_1/behav/xsim/webtalk.log
