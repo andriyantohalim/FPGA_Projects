@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Fri Nov  2 21:26:13 2018
+# Process ID: 10468
+# Current directory: D:/FPGA_Projects/PWM_Generator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7428 D:\FPGA_Projects\PWM_Generator\PWM_Generator.xpr
+# Log file: D:/FPGA_Projects/PWM_Generator/vivado.log
+# Journal file: D:/FPGA_Projects/PWM_Generator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA_Projects/PWM_Generator/PWM_Generator.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 849.555 ; gain = 120.160
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: PWM_Generator_Module
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 978.277 ; gain = 110.820
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'PWM_Generator_Module' [D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/PWM_Generator_Module.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PWM_core_module' [D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/PWM_core_module.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PWM_core_module' (1#1) [D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/PWM_core_module.v:23]
+WARNING: [Synth 8-350] instance 'U1' of module 'PWM_core_module' requires 11 connections, but only 10 given [D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/PWM_Generator_Module.v:61]
+INFO: [Synth 8-6157] synthesizing module 'deadtime_module' [D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/deadtime_module.v:26]
+INFO: [Synth 8-6157] synthesizing module 'deadtime_timer_Module' [D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/deadtime_timer_module.v:23]
+	Parameter PR bound to: 8'b11111111 
+INFO: [Synth 8-6155] done synthesizing module 'deadtime_timer_Module' (2#1) [D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/deadtime_timer_module.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'deadtime_module' (3#1) [D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/deadtime_module.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'PWM_Generator_Module' (4#1) [D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/PWM_Generator_Module.v:23]
+WARNING: [Synth 8-3331] design PWM_Generator_Module has unconnected port start
+WARNING: [Synth 8-3331] design PWM_Generator_Module has unconnected port stop
+WARNING: [Synth 8-3331] design PWM_Generator_Module has unconnected port reset
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1034.883 ; gain = 167.426
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1034.883 ; gain = 167.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1034.883 ; gain = 167.426
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 1344.160 ; gain = 476.703
+12 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 1344.160 ; gain = 476.703
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  2 21:30:24 2018...

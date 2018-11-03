@@ -1,0 +1,12 @@
+
+{ 
+    crc :  9094015553674935019  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 726cfde00eaf46768b50e51aa5badc13 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PWM_Generator_Module_behav xil_defaultlib.PWM_Generator_Module xil_defaultlib.glbl" , 
+    buildDate : "Oct  1 2018" , 
+    buildTime : "20:13:33" , 
+    linkCmd : "D:\\Xilinx\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/PWM_Generator_Module_behav/xsimk.exe\"   \"xsim.dir/PWM_Generator_Module_behav/obj/xsim_0.win64.obj\" \"xsim.dir/PWM_Generator_Module_behav/obj/xsim_1.win64.obj\" \"D:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"D:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
