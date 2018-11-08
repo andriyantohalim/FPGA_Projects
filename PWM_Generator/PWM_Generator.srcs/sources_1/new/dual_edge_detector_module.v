@@ -21,6 +21,16 @@
 
 
 module dual_edge_detector_module(
-
+    input signal,
+    input clk,
+    output dual_edge
     );
+reg signal_delay;
+    
+always @ (posedge clk)
+begin
+    signal_delay <= signal;
+end    
+
+assign dual_edge = signal ^ signal_delay;
 endmodule

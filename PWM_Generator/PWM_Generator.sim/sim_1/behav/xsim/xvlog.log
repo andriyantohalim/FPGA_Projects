@@ -4,6 +4,16 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_Projects/PWM_Generator/PWM_
 INFO: [VRFC 10-311] analyzing module deadtime_module
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/deadtime_timer_module.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module deadtime_timer_Module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/dual_edge_detector_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_edge_detector_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/falling_edge_detector_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module falling_edge_detector_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/input_trigger_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_trigger_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/mux_4to1_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4to1_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/rising_edge_detector_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rising_edge_detector_module
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/PWM_Generator_Module.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module PWM_Generator_Module
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_Projects/PWM_Generator/PWM_Generator.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib

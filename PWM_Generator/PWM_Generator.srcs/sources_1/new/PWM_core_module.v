@@ -28,6 +28,10 @@ module PWM_core_module(
     input [15:0] CR3, // Compare Value 3
     input [15:0] CR4, // Compare Value 4
     
+    input start,
+    input stop,
+    input reset,
+    
     output wire PWM_out1,
     output wire PWM_out2,
     output wire PWM_out3,

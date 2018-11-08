@@ -1,9 +1,14 @@
 0.6
 2018.2
-Jul 26 2018
-19:36:16
-D:/FPGA_Projects/PWM_Generator/PWM_Generator.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+Oct  1 2018
+20:13:33
+D:/FPGA_Projects/PWM_Generator/PWM_Generator.sim/sim_1/behav/xsim/glbl.v,1541165099,verilog,,,,glbl,,,,,,,,
 D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/PWM_Generator_Module.v,1541068430,verilog,,,,PWM_Generator_Module,,,,,,,,
-D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/PWM_core_module.v,1541068538,verilog,,D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/deadtime_module.v,,PWM_core_module,,,,,,,,
+D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/PWM_core_module.v,1541217208,verilog,,D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/deadtime_module.v,,PWM_core_module,,,,,,,,
 D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/deadtime_module.v,1541068062,verilog,,D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/deadtime_timer_module.v,,deadtime_module,,,,,,,,
-D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/deadtime_timer_module.v,1541067883,verilog,,D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/PWM_Generator_Module.v,,deadtime_timer_Module,,,,,,,,
+D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/deadtime_timer_module.v,1541067883,verilog,,D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/dual_edge_detector_module.v,,deadtime_timer_Module,,,,,,,,
+,,,,D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/falling_edge_detector_module.v,,dual_edge_detector_module,,,,,,,,
+,,,,D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/input_trigger_module.v,,falling_edge_detector_module,,,,,,,,
+,,,,D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/mux_4to1_module.v,,input_trigger_module,,,,,,,,
+,,,,D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/rising_edge_detector_module.v,,mux_4to1_module,,,,,,,,
+,,,,D:/FPGA_Projects/PWM_Generator/PWM_Generator.srcs/sources_1/new/PWM_Generator_Module.v,,rising_edge_detector_module,,,,,,,,
