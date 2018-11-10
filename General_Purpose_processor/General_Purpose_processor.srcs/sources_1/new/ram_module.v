@@ -65,30 +65,30 @@ always @ (posedge Clock or posedge Reset) begin
         ram1[31] = 8'b00000000; // storage for the variable n 
         
         // GCD - Greater Common Denominator
-        ram1[0] = 8'b10000000; // IN A
+        ram1[0] = 8'b10000000; // IN A // input x
         ram1[1] = 8'b00111110; // STORE A, X
-        ram1[2] = 8'b10000000; // IN A
+        ram1[2] = 8'b10000000; // IN A // input y
         ram1[3] = 8'b00111111; // STORE A, X
         
-        ram1[4] = 8'b00011110; // loop: LOAD A, X
+        ram1[4] = 8'b00011110; // loop: LOAD A, X // x=y?
         ram1[5] = 8'b00011111; // SUB A, y
-        ram1[6] = 8'b10110000; // JZ UT
-        ram1[7] = 8'b11001100; // JPOS xgty
+        ram1[6] = 8'b10110000; // JZ UT // x=y
+        ram1[7] = 8'b11001100; // JPOS xgty // x>y
         
-        ram1[8] = 8'b00011111; // LOAD A,y
-        ram1[9] = 8'b01111110; // SUB A, x
+        ram1[8] = 8'b00011111; // LOAD A,y //y>x
+        ram1[9] = 8'b01111110; // SUB A, x //y-x
         ram1[10] = 8'b00111111; // STORE A,y
         ram1[11] = 8'b11000100; // JPOS loop
         
-        ram1[12] = 8'b00011110; // 
-        ram1[13] = 8'b01111111; // 
-        ram1[14] = 8'b00111110; // 
-        ram1[15] = 8'b11000100; // 
+        ram1[12] = 8'b00011110; // xgty: LOAD A, x //x>y
+        ram1[13] = 8'b01111111; // SUB A, y //x-y
+        ram1[14] = 8'b00111110; // STORE A, x
+        ram1[15] = 8'b11000100; // JPOS loop
         
-        ram1[16] = 8'b00011110; // 
-        ram1[17] = 8'b11111111; // 
+        ram1[16] = 8'b00011110; // out: LOAD A, x
+        ram1[17] = 8'b11111111; // HALT
         
-        ram1[30] = 8'b00000000; // storage for the variable x  
+        ram1[30] = 8'b00000000; // storage for the variable x
         ram1[31] = 8'b00000000; // storage for the variable y
    
     end 
